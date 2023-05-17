@@ -18,7 +18,9 @@
   </module>
   <module name="LineLength"/>
   <module name="FileLength"/>
-  <module name="FileTabCharacter"/>
+   <module name="FileTabCharacter">
+   <property name="eachLine" value="true"/>
+ </module>
   <module name="Header">
     <property name="headerFile" value="config/header.txt"/>
     <property name="fileExtensions" value="java"/>
